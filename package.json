@@ -1,0 +1,28 @@
+{
+  "name": "html-boilerplate",
+  "version": "1.0.0",
+  "description": "Base template for all html landing pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+        "compilecss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalitrane/html-boilerplate.git"
+  },
+  "author": "Lalit R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalitrane/html-boilerplate/issues"
+  },
+  "homepage": "https://github.com/lalitrane/html-boilerplate#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "owl-carousel": "^1.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
